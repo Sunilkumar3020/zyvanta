@@ -55,7 +55,7 @@
                         <div class="section-title">
 
 
-                            <h2 class="text-anime-style-3 mt-4" data-cursor="-opaque">Ayurveda. Purity. Wellness. </h2>
+                            <h2 class="text-anime-style-3 mt-4" data-cursor="-opaque">Ayurveda. Purity. Wellness. New. </h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">From Ayurveda’s timeless wisdom to modern innovations — we bring foods & selfcare rooted in purity, balance and ecological harmony.</p>
                         </div>
                         <!-- Section Title End -->
