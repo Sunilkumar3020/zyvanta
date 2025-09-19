@@ -1,0 +1,328 @@
+ .hero-content .section-title p {
+     max-width: 74%;
+ }
+
+ .hero-content-btn {
+     display: flex;
+     column-gap: 10px;
+ }
+
+ .project-content-list {
+     list-style: none;
+     padding-left: 10px;
+     min-height: 220px;
+ }
+
+ .project-content-list li {
+     color: #222;
+     margin-bottom: 10px;
+     line-height: 1.6;
+     text-align: left;
+     font-size: 18px;
+
+ }
+
+ .hero-content .section-title h4.sub-heading {
+     color: #fff;
+     font-size: 36.5px;
+     font-weight: 400;
+ }
+
+ /* .navbar-nav .nav-link.active {
+     color: var(--accent-secondary-color);
+     
+     text-underline-offset: 10px;
+     background-color: #03221B;
+
+ } */
+
+
+ .slicknav_nav li a.active {
+     color: var(--accent-secondary-color) !important;
+     /* text-decoration: underline; */
+     text-underline-offset: 10px;
+     background-color: rgb(211, 183, 36) !important;
+
+ }
+
+ .search-container {
+     position: absolute;
+     /* top: 15px; */
+     top: 5px;
+     right: 50px;
+ }
+
+ .search-field {
+     background-color: #fff;
+     position: relative;
+     border-radius: 20px;
+     overflow: hidden;
+     transition: all 0.5s ease-in-out;
+
+ }
+
+ .search-field input {
+     border: 0;
+     background-color: #fff;
+     padding: 8px 20px;
+     width: 0;
+     transition: all 0.5s ease-in-out;
+ }
+
+ .search-field.active input {
+     width: 100%;
+ }
+
+ .search-field input:focus-within {
+     outline: 0;
+ }
+
+ .search-field .search-icon {
+     cursor: pointer;
+     position: absolute;
+     right: 8px;
+     top: 50%;
+     transform: translateY(-50%);
+ }
+
+ .two-part-grid {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+ }
+
+ .two-part-grid .approach-tab-image,
+ .two-part-grid .approach-tab-list {
+     width: 100%;
+ }
+
+ .approach-tab-list.full {
+     width: 100%;
+ }
+
+ /* .footer-links .quick-links {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+ } */
+ .hero-content .section-title h2 {
+     font-size: 44.5px;
+ }
+
+ .hero-content-logo h1,
+ .hero-content-logo h4 {
+     /* color: #00441e !important; */
+     color: #fff !important;
+ }
+
+ .text-justify {
+     text-align: justify;
+ }
+
+ .footer-copyright .footer-copyright-text p,
+ .footer-copyright .footer-copyright-text p a,
+ .footer-copyright .footer-privacy-policy a {
+     font-size: 14px;
+ }
+
+ .latest-articles-section .articles h3 span {
+     font-size: 20px;
+     color: gray;
+     font-style: italic;
+ }
+
+ .mt-10 {
+     margin-top: 10px;
+ }
+
+ .about-us-content h3.sub-heading {
+     font-size: 28px;
+     letter-spacing: 0;
+     text-transform: none;
+ }
+
+ .about-us-content li {
+     text-align: justify;
+ }
+
+ .about-us-content.left-zero {
+     margin-left: 0;
+     margin-right: 20px;
+ }
+
+ .about-us-content p {
+     text-align: justify;
+ }
+
+ header.main-header.sticky {
+     position: fixed !important;
+     width: 100% !important;
+     background-color: #03221B;
+ }
+
+ .about-us-navigation {
+     margin-top: 20px;
+ }
+
+ .about-us-navigation ul {
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
+     gap: 10px;
+ }
+
+ .about-us-navigation ul li a {
+     background-color: #03221B;
+     color: #fff;
+     display: inline-block;
+     text-align: center;
+     width: 100%;
+     padding: 10px;
+     border-radius: 50px;
+     transition: all 0.3s ease;
+ }
+
+ .about-us-navigation ul li a:hover {
+     background-color: var(--accent-secondary-color);
+ }
+
+ .mokshaa-header {
+     background-color: #03221B;
+     width: 100%;
+     height: 70px;
+ }
+
+ .moksha-work-step .work-step-image img {
+     width: 100%;
+     aspect-ratio: 1 / 0.746;
+     object-fit: contain;
+     border-radius: 20px;
+     transition: all 0.4s ease-in-out;
+ }
+
+ .moksha-work-step .project-content-list {
+     list-style: none;
+     padding-left: 10px;
+     min-height: auto;
+ }
+
+ .approach-tab-list-image.two-part {
+     display: grid;
+     grid-template-columns: 1fr;
+ }
+
+ .approach-tab-list-image.two-part .approach-tab-list {
+     width: 100%;
+ }
+
+ .mokshaa-approach-content h2 {
+     font-size: 55px;
+     font-weight: 600;
+ }
+
+ .brand-line {
+     font-size: 25px;
+ }
+
+
+
+ .page-gallery.brochures .page-gallery-box .photo-gallery img {
+     width: 100%;
+     aspect-ratio: 1;
+     object-fit: contain;
+     border-radius: 20px;
+ }
+
+ @media(max-width:768px) {
+     body {
+         font-size: 16px;
+     }
+
+     .hero {
+         padding: 150px 0 90px;
+     }
+
+     .hero-content-btn {
+
+         flex-direction: column;
+     }
+
+     .hero-content-btn a.btn-default {
+         min-width: 220px;
+     }
+
+     .how-it-work {
+         margin-bottom: 0px;
+     }
+
+     .about-us {
+         padding: 50px 0 0;
+     }
+
+     .row-reverse {
+         flex-direction: column-reverse;
+     }
+
+     .about-us-content h3.sub-heading {
+         font-size: 23px;
+     }
+
+     .faq-accordion .accordion-header .accordion-button {
+         font-size: 16px;
+
+     }
+
+     .about-us-navigation ul {
+
+         padding: 0;
+         gap: 5px;
+         overflow-x: auto;
+     }
+
+     .about-us-navigation ul::-webkit-scrollbar {
+         width: 1px !important;
+     }
+
+     .about-us-navigation ul::-webkit-scrollbar-track {
+         box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
+     }
+
+     .about-us-navigation ul li a {
+         white-space: nowrap;
+     }
+
+     .hero-content .section-title h2 {
+         font-size: 30px;
+         line-height: 1.6;
+     }
+
+     .mokshaa-approach-content h2 {
+         font-size: 40px;
+         font-weight: 600;
+     }
+
+     .our-projects .section-title p {
+         font-size: 14px;
+         text-align: left !important;
+     }
+
+     .two-part-grid {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+     }
+
+     .approach-tab-list-image {
+
+         flex-direction: column-reverse;
+     }
+
+     .approach-tab-list-image.two-part-grid .approach-tab-image {
+         grid-row-start: 1;
+     }
+
+     .table-responsive {
+         margin-bottom: 30px;
+     }
+
+     .hero-content .section-title p {
+         max-width: 100%;
+     }
+ }
