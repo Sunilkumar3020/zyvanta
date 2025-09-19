@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: zyvanta         # 👈 Change this to any name you want
+    env: docker
+    plan: free               # or starter/paid plan if needed
+    autoDeploy: true
+    dockerfilePath: ./Dockerfile
